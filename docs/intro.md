@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# El proyecto
+# Características
 
 ## Objetivos de aprendizaje
 
