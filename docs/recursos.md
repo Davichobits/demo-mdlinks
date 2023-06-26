@@ -24,8 +24,9 @@ Por poner un ejemplo, el parseado (análisis) del markdown para extraer los link
 
 * Siguiendo otro camino completamente diferente, podríamos usar expresiones regulares (RegExp).
 
+:::tip
 No dudes en consultar a tus compañeras, coaches y/o el foro de la comunidad si tienes dudas existenciales con respecto a estas decisiones. No existe una "única" manera correcta 😉 Lo importante es que entiendas el código que escribes para lograr la tarea.
-
+:::
 ### ¿CommonJS Modules o ES Modules, cual debería usar?
 
 Deberás decidir desde el principio si utilizarás ES Modules, es decir, import/export, o CommonJS Modules, es decir, require/module.exports.

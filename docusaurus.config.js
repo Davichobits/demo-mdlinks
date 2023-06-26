@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'mdLinks',
+  tagline: 'Proyecto mdlinks',
+  favicon: 'img/enlace.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Laboratoria', // Usually your GitHub org/user name.
+  projectName: 'mdlinks', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -64,22 +64,21 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'mdlinks',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'mdlinks logo',
+          src: 'img/enlace.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'El proyecto',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://www.laboratoria.la/',
+            label: 'Laboratoria',
             position: 'right',
           },
         ],
@@ -88,46 +87,74 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '<Laboratoria>',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Facebook',
+                to: 'https://www.facebook.com/laboratoriala/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Instagram',
+                to: 'https://www.instagram.com/laboratoriala/',
+              },
+              {
+                label: 'Linkedin',
+                to: 'https://www.linkedin.com/school/laboratoria/mycompany/',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                to: 'https://twitter.com/Laboratoriala',
+              },
+              {
+                label: 'Youtube',
+                to: 'https://www.youtube.com/channel/UC3LdpwpeIJqbm4hafXXqRHA',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'CONOCE MÁS',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Contáctanos',
+                href: 'https://www.laboratoria.la/contactanos',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Blog',
+                href: 'https://hub.laboratoria.la/?utm_source=site-laboratoria&utm_medium=footer&utm_campaign=Hub%2520de%2520Laboratoria&_ga=2.140963249.2026375068.1687520629-326958292.1683129027',
+              },
+              {
+                label: 'Conoce Laboratoria+',
+                href: 'https://www.laboratoriaplus.la/',
+              },
+              {
+                label: 'Política de privacidad',
+                href: 'https://www.laboratoria.la/privacy',
+              },
+              {
+                label: 'Términos y condiciones',
+                href: 'https://www.laboratoria.la/terminosycondiciones',
+              },
+            ],
+          },
+          {
+            title: 'INVOLÚCRATE',
+            items: [
+              {
+                label: 'Postula al bootcamp',
+                to: 'https://bootcamp.laboratoria.la/es/?utm_source=web_laboratoria&utm_medium=footer&utm_campaign=footer_web&_ga=2.140963249.2026375068.1687520629-326958292.1683129027',
+              },
+              {
+                label: 'Contrata talento',
+                href: 'https://talento.laboratoria.la/?utm_source=site-laboratoria&utm_medium=footer&_ga=2.140963249.2026375068.1687520629-326958292.1683129027',
+              },
+              {
+                label: 'Trabaja con nosotros/as',
+                href: 'https://www.laboratoria.la/trabaja-con-nosotros',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Laboratoria. Todos los derechos reservados.`,
       },
       prism: {
         theme: lightCodeTheme,

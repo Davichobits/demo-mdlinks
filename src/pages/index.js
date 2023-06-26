@@ -22,7 +22,7 @@ function HomepageHeader() {
         <img src="https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg" alt="mdlinks image" />
         
 
-        <h2 className='text-left'>Resumen del proyecto</h2>
+        <h2 className='text-left mt-24'>Resumen del proyecto</h2>
 
         <p className='paragraph'>En este proyecto crearás una librería de código que servirá como herramienta para analizar links dentro de archivos Markdown. Esta librería será accesible desde la línea de comandos (CLI) que permitirá al usuario ejecutar la librería directamente desde el terminal. Esta librería, escrita en Node.js, se encargará de analizar los archivos en formato Markdown. La librería será accesible al importarla desde el módulo publicado.</p>
 
