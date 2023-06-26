@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Hito 12
+# Hito 1
 
 ## Javascript API
 
