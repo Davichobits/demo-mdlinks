@@ -2,8 +2,7 @@ name: Build
 
 on:
   push:
-    branches:
-      - main # Cambia esto por la rama en la que deseas que se ejecute el build
+    branches: [ "main" ]
 
 jobs:
   build:
