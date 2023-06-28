@@ -6,14 +6,22 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
+  /* --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary-lightest: #3cad6e; */
   --ifm-code-font-size: 95%;
+  /* --ifm-color-primary: #ffe521; */
+  --ifm-color-primary: #a88900;
+  --ifm-color-primary-dark: #d4b500;
+  --ifm-color-primary-darker: #c4a200;
+  --ifm-color-primary-darkest: #a88900;
+  --ifm-color-primary-light: #f0d900;
+  --ifm-color-primary-lighter: #f5e200;
+  --ifm-color-primary-lightest: #fffa00;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
@@ -26,7 +34,7 @@
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf; */
-
+  --ifm-code-font-size: 95%;
   --ifm-color-primary: #e6c700;
   --ifm-color-primary-dark: #d4b500;
   --ifm-color-primary-darker: #c4a200;
@@ -34,12 +42,15 @@
   --ifm-color-primary-light: #f0d900;
   --ifm-color-primary-lighter: #f5e200;
   --ifm-color-primary-lightest: #fffa00;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 .paragraph {
   text-align: justify;
+  color: black;
 }
 .paragraph a{
+  font-weight: bold;
   color: black;
 }
 .text-left{
@@ -47,4 +58,10 @@
 }
 .mt-24{
   margin-top: 24px;
+}
+.font-black{
+  color: black;
+}
+.hero{
+  background-color: #ffe521;
 }

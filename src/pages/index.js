@@ -11,18 +11,18 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <h2 className='text-left'>Preámbulo</h2>
-        <p className='paragraph'><a href="https://es.wikipedia.org/wiki/Markdown">Markdown</a> es un lenguaje de marcado ligero muy popular entre desarrolladores y desarrolladoras. Es usado en muchísimas plataformas que manejan texto plano (GitHub, foros, blogs, etc.) y es muy común encontrar varios archivos en ese formato en cualquier tipo de repositorio (empezando por el tradicional <b>README.md</b> ).</p>
+        <h1 className="hero__title font-black">{siteConfig.title}</h1>
+        <h2 className='text-left font-black'>Preámbulo</h2>
+        <p className='paragraph'><a href="https://es.wikipedia.org/wiki/Markdown">Markdown</a> es un lenguaje de marcado ligero muy popular entre desarrolladores y desarrolladoras. Es usado en muchísimas plataformas que manejan texto plano (GitHub, foros, blogs, etc.) y es muy común encontrar varios archivos en ese formato en cualquier tipo de repositorio (empezando por el tradicional <i>README.md</i> ).</p>
 
-        <p className='paragraph'>Estos archivos <b>Markdown</b> normalmente contienen <i>links</i> (vínculos/ligas) que muchas veces están rotos o ya no son válidos y eso perjudica mucho el valor de la información que se quiere compartir.</p>
+        <p className='paragraph'>Estos archivos <i>Markdown</i> normalmente contienen <i>links</i> (vínculos/ligas) que muchas veces están rotos o ya no son válidos y eso perjudica mucho el valor de la información que se quiere compartir.</p>
 
         <p className='paragraph'>Dentro de una comunidad de código abierto, nos han propuesto crear una herramienta usando <a href="https://nodejs.org/">Node.js</a>, que lea y analice archivos en formato `Markdown`, para verificar los links que contengan y reportar algunas estadísticas.</p>
 
         <img src="https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg" alt="mdlinks image" />
         
 
-        <h2 className='text-left mt-24'>Resumen del proyecto</h2>
+        <h2 className='text-left mt-24 font-black'>Resumen del proyecto</h2>
 
         <p className='paragraph'>En este proyecto crearás una librería de código que servirá como herramienta para analizar links dentro de archivos Markdown. Esta librería será accesible desde la línea de comandos (CLI) que permitirá al usuario ejecutar la librería directamente desde el terminal. Esta librería, escrita en Node.js, se encargará de analizar los archivos en formato Markdown. La librería será accesible al importarla desde el módulo publicado.</p>
 
