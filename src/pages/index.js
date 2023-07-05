@@ -17,14 +17,14 @@ function HomepageHeader() {
 
         <p className='paragraph'>Estos archivos <i>Markdown</i> normalmente contienen <i>links</i> (vínculos/ligas) que muchas veces están rotos o ya no son válidos y eso perjudica mucho el valor de la información que se quiere compartir.</p>
 
-        <p className='paragraph'>Dentro de una comunidad de código abierto, nos han propuesto crear una herramienta usando <a href="https://nodejs.org/">Node.js</a>, que lea y analice archivos en formato <i>Markdown</i>`, para verificar los links que contengan y reportar algunas estadísticas.</p>
+        <p className='paragraph'>Dentro de una comunidad de código abierto, nos han propuesto crear una herramienta usando <a href="https://nodejs.org/">Node.js</a>, que lea y analice archivos en formato <i>Markdown</i>, para verificar los links que contengan y reportar algunas estadísticas.</p>
 
         <img src="https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg" alt="mdlinks image" />
         
 
         <h2 className='text-left mt-24 font-black'>Resumen del proyecto</h2>
 
-        <p className='paragraph'>En este proyecto crearás una librería de código que servirá como herramienta para analizar links dentro de archivos Markdown. Esta librería será accesible desde la línea de comandos (CLI) que permitirá al usuario ejecutar la librería directamente desde el terminal. Esta librería, escrita en Node.js, se encargará de analizar los archivos en formato Markdown. La librería será accesible al importarla desde el módulo publicado.</p>
+        <p className='paragraph'>En este proyecto crearás una librería de código que servirá como herramienta para analizar links dentro de archivos Markdown. Esta librería será accesible desde la línea de comandos (CLI), la misma que, que permitirá al usuario ejecutar la librería directamente desde el terminal. Esta librería, escrita en Node.js, se encargará de analizar los archivos en formato Markdown. La librería será accesible al importarla desde el módulo publicado.</p>
 
         <p className='paragraph'>En esta oportunidad nos alejamos un poco del navegador para construir un script que se ejecute usando Node.js. Aprenderemos sobre procesos (`process.env`, `process.argv`, ...), cómo interactuar con el sistema archivos, cómo hacer consultas de red, etc.</p>
 
