@@ -13,7 +13,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title font-black">{siteConfig.title}</h1>
         <h2 className='text-left font-black'>Preámbulo</h2>
-        <p className='paragraph'><a href="https://es.wikipedia.org/wiki/Markdown">Markdown</a> es un lenguaje de marcado ligero muy popular entre desarrolladores y desarrolladoras. Es usado en muchísimas plataformas que manejan texto plano (GitHub, foros, blogs, etc.) y es muy común encontrar varios archivos en ese formato en cualquier tipo de repositorio (empezando por el tradicional <i>README.md</i> ).</p>
+        <p className='paragraph'><a href="https://es.wikipedia.org/wiki/Markdown">Markdown</a> es un lenguaje de marcado ligero muy popular entre developers. Es usado en muchísimas plataformas que manejan texto plano (GitHub, foros, blogs, etc.) y es muy común encontrar varios archivos en ese formato en cualquier tipo de repositorio (empezando por el tradicional <i>README.md</i> ).</p>
 
         <p className='paragraph'>Estos archivos <i>Markdown</i> normalmente contienen <i>links</i> (vínculos/ligas) que muchas veces están rotos o ya no son válidos y eso perjudica mucho el valor de la información que se quiere compartir.</p>
 
