@@ -6,7 +6,8 @@ sidebar_position: 2
 
 ## Javascript API con segundo parámetro opcional "validate"
 
-Agrega un argumento más a la función `mdLinks`. El segundo parámetro recibirá un booleano **validate**. Este segundo parámetro será opcional.
+Agrega un argumento más a la función `mdLinks`. El segundo parámetro recibirá
+un booleano **validate**. Este segundo parámetro será opcional.
 
 Ahora la función deberá ofrecer la siguiente interfaz:
 
@@ -14,21 +15,25 @@ Ahora la función deberá ofrecer la siguiente interfaz:
   
 Argumentos:
 
-  - path: Ruta absoluta o relativa al archivo o directorio. Si la ruta pasada es relativa, debe resolverse como relativa al directorio desde donde se invoca node (transformar a absoluta).
+* path: Ruta absoluta o relativa al archivo o directorio. Si la ruta pasada
+  es relativa, debe resolverse como relativa al directorio desde donde se
+  invoca node (transformar a absoluta).
 
-  - validate: Booleano que determina si se desea validar los links encontrados.
+* validate: Booleano que determina si se desea validar los links encontrados.
 
 **Valor que resuelve la promesa con validate = false ó undefined:**
-Un arreglo con objetos que representan links. Cada objeto tiene las propiedades:
+Un arreglo con objetos que representan links. Cada objeto tiene las
+propiedades:
 
 * `href`: URL encontrada.
 * `text`: Texto que aparecía dentro del link (`<a>`).
 * `file`: Ruta del archivo donde se encontró el link.
 
-_(OJO: el valor anterior es el mismo que el del hito 1)_
+OJO: _el valor anterior es el mismo que el del hito 1_
 
 **Valor que resuelve la promesa con validate = true:**
-Un arreglo con objetos que representan links. Cada objeto tiene las propiedades:
+Un arreglo con objetos que representan links. Cada objeto tiene las
+propiedades:
 
 * `href`: URL encontrada.
 * `text`: Texto que aparecía dentro del link.
@@ -41,6 +46,7 @@ Ejemplo:
 (resultados como comentarios)
 
 ```js
+
 const mdLinks = require("md-links");
 
 
@@ -66,7 +72,7 @@ mdLinks("./some/example.md", false)
 
 ```
 
----
+
 
 :::danger No olvides los tests
 Antes de pasar al siguiente hito, asegúrate de escribir los tests correspondientes al código del hito actual.

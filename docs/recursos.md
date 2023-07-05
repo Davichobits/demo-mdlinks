@@ -27,6 +27,7 @@ Por poner un ejemplo, el parseado (análisis) del markdown para extraer los link
 :::tip
 No dudes en consultar a tus compañeras, coaches y/o el foro de la comunidad si tienes dudas existenciales con respecto a estas decisiones. No existe una "única" manera correcta 😉 Lo importante es que entiendas el código que escribes para lograr la tarea.
 :::
+
 ### ¿CommonJS Modules o ES Modules, cual debería usar?
 
 Deberás decidir desde el principio si utilizarás ES Modules, es decir, import/export, o CommonJS Modules, es decir, require/module.exports.
@@ -54,43 +55,59 @@ así que lo instalamos directamente desde GitHub con el comando `npm install
 Laboratoria/course-parser`.
 
 
+### Hito 1
 
-## Tutoriales 
-
-* [learnyounode](https://github.com/workshopper/learnyounode)
-* [how-to-npm](https://github.com/workshopper/how-to-npm)
-* [promise-it-wont-hurt](https://github.com/stevekane/promise-it-wont-hurt)
-
-## Otros recursos
-
-* [Acerca de Node.js - Documentación oficial](https://nodejs.org/es/about/)
 * [Node.js file system - Documentación oficial](https://nodejs.org/api/fs.html)
 * [Node.js path - Documentación oficial](https://nodejs.org/api/path.html)
-* [Node.js http.get - Documentación oficial](https://nodejs.org/api/http.html#http_http_get_options_callback)
-* [What exactly is Node.js? - freeCodeCamp](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5)
-* [¿Qué es Node.js y para qué sirve? - drauta.com](https://www.drauta.com/que-es-nodejs-y-para-que-sirve)
+* [Cómo crear promesas - javascript.info](https://es.javascript.info/promise-basics)
+
+### Hito 2
+
+* [Validación de URLs con peticiones http - luisrrleal.com](https://luisrrleal.com/blog/como-hacer-peticiones-http-en-javascript)
+
+### Hito 3
+
+* [Cómo iterar un arreglo de promesas - mozilla.org](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
+
+### Hito 4
+
+* [Tú, yo y package.json](https://medium.com/noders/t%C3%BA-yo-y-package-json-9553929fb2e3)
+* [Cómo crear y publicar packpage - npmjs.com](https://docs.npmjs.com/getting-started/publishing-npm-packages)
+* [Una guía para crear un paquete de línea de comandos NodeJS - medium.com](https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e)
+
+### Hito 5
+
+* [Qué es la recursividad y cómo crear funciones recursivas - javascript.info](https://es.javascript.info/recursion)
+
+### Otros recursos
+
+* [Acerca de Node.js - Documentación oficial](https://nodejs.org/es/about/)
 * [¿Qué es Nodejs? Javascript en el Servidor - Fazt en YouTube](https://www.youtube.com/watch?v=WgSc1nv_4Gw)
 * [Asíncronía en js](https://carlosazaustre.es/manejando-la-asincronia-en-javascript)
-* [NPM](https://docs.npmjs.com/getting-started/what-is-npm)
-* [Publicar packpage](https://docs.npmjs.com/getting-started/publishing-npm-packages)
-* [Una guía para crear un paquete de línea de comandos NodeJS](https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e)
-* [Tú, yo y package.json](https://medium.com/noders/t%C3%BA-yo-y-package-json-9553929fb2e3)
-
+* [Patrones para coincidencia de caracteres con expresiones regulares - mozilla.org](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_expressions)
 
 ## Para pedir project feedback
 
-* [ ] Un board en github projects con el backlog para la implementación de la librería.
+* [ ] Un board en github projects con el backlog para la implementación de la
+  librería.
 
-* [ ] un `README.md` con documentación técnica de la librería y una guía de uso e instalación de la librería.
+* [ ] un `README.md` con documentación técnica de la librería y una guía de
+  uso e instalación de la librería.
 
 * [ ] un API `mdLinks(path, validate)` con los siguientes requisitos mínimos:
 
-  - El módulo debe exportar una función que cumpla con la interfaz (API) requerida. (Hito 1)
+  - El módulo debe exportar una función que cumpla con la interfaz (API)
+    requerida. (Hito 1)
   - Deberá implementar el soporte para archivos individuales. (Hito 1)
   - Deberá implementar la funcionalidad de validación. (Hitos 1 y 2)
   - Deberá ofrecer soporte para directorios. (Hitos 1 al 3)
-  - Ofrecerá un CLI(Command Line Interface) instalable de través de NPM(Node Package Manager). (Hitos 1 al 4)
-  - Deberá ofrecer soporte para directorios que pueden contener otros directorios. (Hitos 1 al 5)
+  - Ofrecerá un CLI(Command Line Interface) instalable de través de NPM(Node
+    Package Manager). (Hitos 1 al 4)
+  - Deberá ofrecer soporte para directorios que pueden contener otros
+    directorios. (Hitos 1 al 5)
 
-* [ ] un CLI que se ejecuta sin errores y tiene el output esperado. Además acepta los parámetros `--validate` y `--stats`. Y expone un ejecutable md-links en el path (configurado en el package.json)
-* [ ] Pasa tests y linters (`npm test`). Tests unitarios cubren un mínimo del 70% de coverage tests, es decir statements, functions, lines y branches.
+* [ ] un CLI que se ejecuta sin errores y tiene el output esperado. Además
+  acepta los parámetros `--validate` y `--stats`. Y expone un ejecutable
+  md-links en el path (configurado en el package.json)
+* [ ] Pasa tests y linters (`npm test`). Tests unitarios cubren un mínimo
+  del 70% de coverage tests, es decir statements, functions, lines y branches.

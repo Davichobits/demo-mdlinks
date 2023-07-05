@@ -6,15 +6,19 @@ sidebar_position: 4
 
 ## Interfaz de Línea de comando
 
-En este hito, crearás un paquete ejecutable de tu código, el mismo que internamente ejecutará la función mdLinks que acabas de crear.
+En este hito, crearás un paquete ejecutable de tu código, el mismo que
+internamente ejecutará la función mdLinks que acabas de crear.
 
 Tu módulo debe ser instalable via npm install `<github-user>/md-links`.
 
-Este módulo debe incluir tanto un ejecutable que podamos invocar en la línea de comando como una interfaz que podamos importar con require para usarlo programáticamente.
+Este módulo debe incluir tanto un ejecutable que podamos invocar en la
+línea de comando como una interfaz que podamos importar con require para
+usarlo programáticamente.
 
 Este paquete deberá estar documentado y alojado en npm para poderlo descargar.
 
-El ejecutable de tu aplicación debe poder correr de la siguiente manera a través de la terminal:
+El ejecutable de tu aplicación debe poder correr de la siguiente manera a
+través de la terminal:
 
 `md-links <path-to-file> [options]`
 
@@ -22,8 +26,11 @@ Por ejemplo:
 
 ![mdlinks-example](https://github.com/Laboratoria/bootcamp/assets/123121338/7dcc83c4-873e-4ef8-b7d0-a15adb102680)
 
-El comportamiento por defecto no debe validar si las URLs responden ok o no, solo debe identificar el archivo markdown (a partir de la ruta que recibe como argumento), analizar el archivo Markdown e imprimir los links que vaya
-encontrando, junto con la ruta del archivo donde aparece y el texto que hay dentro del link (truncado a 50 caracteres).
+El comportamiento por defecto no debe validar si las URLs responden ok o no,
+solo debe identificar el archivo markdown (a partir de la ruta que recibe como
+argumento), analizar el archivo Markdown e imprimir los links que vaya
+encontrando, junto con la ruta del archivo donde aparece y el texto que hay
+dentro del link (truncado a 50 caracteres).
 
 #### Options
 
@@ -53,7 +60,10 @@ necesiten de los resultados de la validación.
 
 ![mdlinks-example-stats-validate](https://github.com/Laboratoria/bootcamp/assets/123121338/9d9971a0-866a-4c64-a890-4c62c3df3700)
 
-Para ejecutar tu script utilizando el comando `mdlinks`, debes vincular este comando al sistema. Sin embargo, antes de vincular el comando, puedes desarrollar tu interfaz de línea de comandos (CLI) invocándola con node. Por ejemplo, puedes usar el siguiente comando: 
+Para ejecutar tu script utilizando el comando `mdlinks`, debes vincular este
+comando al sistema. Sin embargo, antes de vincular el comando, puedes desarrollar
+tu interfaz de línea de comandos (CLI) invocándola con node. Por ejemplo,
+puedes usar el siguiente comando:
 
 `node <RUTA_DE_TU_CLI.js> ruta options`
 
