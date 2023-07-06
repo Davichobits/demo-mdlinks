@@ -24,7 +24,7 @@ function HomepageHeader() {
 
         <h2 className='text-left mt-24 font-black'>Resumen del proyecto</h2>
 
-        <p className='paragraph'>En este proyecto crearás una librería de código que servirá como herramienta para analizar links dentro de archivos Markdown. Esta librería será accesible desde la línea de comandos (CLI), la misma que, que permitirá al usuario ejecutar la librería directamente desde el terminal. Esta librería, escrita en Node.js, se encargará de analizar los archivos en formato Markdown. La librería será accesible al importarla desde el módulo publicado.</p>
+        <p className='paragraph'>En este proyecto crearás una librería de código que servirá como herramienta para analizar links dentro de archivos Markdown. Esta librería, escrita en Node.js, será accesible desde la línea de comandos (CLI) y permitirá a la usuaria ejecutar la librería directamente desde la terminal. </p>
 
         <p className='paragraph'>En esta oportunidad nos alejamos un poco del navegador para construir un script que se ejecute usando Node.js. Aprenderemos sobre procesos (`process.env`, `process.argv`, ...), cómo interactuar con el sistema archivos, cómo hacer consultas de red, etc.</p>
 

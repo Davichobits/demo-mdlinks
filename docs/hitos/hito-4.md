@@ -15,8 +15,6 @@ Este módulo debe incluir tanto un ejecutable que podamos invocar en la
 línea de comando como una interfaz que podamos importar con require para
 usarlo programáticamente.
 
-Este paquete deberá estar documentado y alojado en npm para poderlo descargar.
-
 El ejecutable de tu aplicación debe poder correr de la siguiente manera a
 través de la terminal:
 
