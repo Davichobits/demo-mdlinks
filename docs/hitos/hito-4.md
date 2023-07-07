@@ -9,7 +9,14 @@ sidebar_position: 4
 En este hito, crearás un paquete ejecutable de tu código, el mismo que
 internamente ejecutará la función mdLinks que acabas de crear.
 
-Tu módulo debe ser instalable via npm install `<github-user>/md-links`.
+Este paquete deberá estar documentado en un repositorio público con un package.json
+para poderlo instalar a con npm.
+
+La instalación sería de la siguiente manera:
+
+```shell
+npm install `<github-user>/md-links`.
+```
 
 Este módulo debe incluir tanto un ejecutable que podamos invocar en la
 línea de comando como una interfaz que podamos importar con require para
@@ -18,7 +25,9 @@ usarlo programáticamente.
 El ejecutable de tu aplicación debe poder correr de la siguiente manera a
 través de la terminal:
 
+```shell
 `md-links <path-to-file> [options]`
+```
 
 Por ejemplo:
 
@@ -64,7 +73,3 @@ tu interfaz de línea de comandos (CLI) invocándola con node. Por ejemplo,
 puedes usar el siguiente comando:
 
 `node <RUTA_DE_TU_CLI.js> ruta options`
-
-:::danger No olvides los tests
-Antes de pasar al siguiente hito, asegúrate de escribir los tests correspondientes al código del hito actual.
-:::

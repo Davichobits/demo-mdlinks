@@ -72,8 +72,6 @@ mdLinks("./some/example.md", false)
 
 ```
 
-
-
 :::danger No olvides los tests
 Antes de pasar al siguiente hito, asegúrate de escribir los tests correspondientes al código del hito actual.
 :::

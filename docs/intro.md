@@ -14,17 +14,23 @@ Aquí vas a poder ver los objetivos de aprendizaje que lograrás dominar al term
 
 * El rango de tiempo estimado para completar el proyecto es de 3 a 5 sprints.
 
-<!-- * Consideramos los hitos 1 y 2 como los criterios de aceptación mínimos del proyecto. -->
-
 * Enfócate en aprender y no solamente en "completar" todos los hitos del proyecto.
 
-* Te sugerimos que no intentes saber todo de Node.js antes de empezar a codear. No es necesario tomar un curso de Node.js completo. Aprenderás a medida que avances en el proceso.
+* Te sugerimos que no intentes saber todo de Node.js antes de empezar a codear.
+  No es necesario tomar un curso de Node.js completo. Aprenderás a medida que
+  avances en el proceso.
 
 ## Consideraciones técnicas
 
 Para comenzar este proyecto tendrás que hacer un fork y clonar este repositorio.
 
-* En este proyecto hay que adoptar las convenciones que los proyectos open source de software usan para hacer seguimiento. Vas a usar Github projects con **[issues](https://docs.github.com/es/issues)** y **[milestones](https://docs.github.com/es/issues/using-labels-and-milestones-to-track-work/about-milestones)** para priorizar y organizar el trabajo y hacer seguimiento de tu proceso. Dentro de cada milestone se crearán y asignarán los issues que cada quien considere necesarios.
+* En este proyecto hay que adoptar las convenciones que los proyectos open
+  source de software usan para hacer seguimiento. Vas a usar Github projects
+  con **[issues](https://docs.github.com/es/issues)** y
+  **[milestones](https://docs.github.com/es/issues/using-labels-and-milestones-to-track-work/about-milestones)**
+  para priorizar y organizar el trabajo y hacer seguimiento de tu proceso.
+  Dentro de cada milestone crearás los issues que
+  consideres necesarios.
 
 * La **librería** y el **script ejecutable** (herramienta de línea de comando -
   CLI) deben estar implementados en JavaScript para ser ejecutados con
@@ -36,15 +42,30 @@ Para comenzar este proyecto tendrás que hacer un fork y clonar este repositorio
   programáticamente.
 
 * Los **tests unitarios** deben cubrir un mínimo del 70% de _statements_,
-  _functions_, _lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/) para tus pruebas unitarias.
+  _functions_, _lines_ y _branches_. Te recomendamos explorar [Jest](https://jestjs.io/)
+  para tus pruebas unitarias.
 
 * Para este proyecto **no está permitido** utilizar `async/await`.
 
-* Para este proyecto, te recomendamos utilizar los módulos CommonJS con `require`,  que es el formato de módulos original de Node.js. Si prefieres utilizar ES Modules 
-`(import/export)`, puedes hacerlo, pero ten en cuenta que deberás configurar adecuadamente tu proyecto para que Node.js pueda utilizar este formato. Puedes encontrar más información al respecto [aquí](https://nodejs.org/api/esm.html#enabling)
+* Para este proyecto, te recomendamos utilizar los módulos CommonJS con
+  `require`,  que es el formato de módulos original de Node.js. Si prefieres
+  utilizar ES Modules `(import/export)`, puedes hacerlo, pero ten en cuenta que
+  deberás configurar adecuadamente tu proyecto para que Node.js pueda utilizar
+  este formato. Puedes encontrar más información al respecto
+  [aquí](https://nodejs.org/api/esm.html#enabling)
+
+* Para que practiques otra forma de importar y exportar módulos en Node.js,
+  puedes utilizar CommonJS con `require`, que es el formato de módulos original
+  de Node.js.  Si deseas utilizar los ES Modules (`import/export`), asegúrate
+  de configurar correctamente tu archivo package.json agregando la propiedad
+  "type" con el valor "module". Esto permitirá que Node.js reconozca y utilice
+  el formato de módulos ES.
 
 * Para este proyecto, te recomendamos evitar el uso de la función síncrona
-  `readFileSync` para leer archivos. En su lugar, te sugerimos abordar este desafío de manera asíncrona utilizando `readFile`. Además, si utilizas el módulo [require("fs/promises")](https://nodejs.org/dist/latest-v18.x/docs/api/fs.html), podrás aprovechar las promesas con `readFile`. 
+  `readFileSync` para leer archivos. En su lugar, te sugerimos abordar este
+  desafío de manera asíncrona utilizando `readFile`. Además, si utilizas el
+  módulo [require("fs/promises")](https://nodejs.org/dist/latest-v18.x/docs/api/fs.html),
+  podrás aprovechar las promesas con `readFile`.
 
 * Para disminuir la complejidad de tu algoritmo recursivo, te recomendamos
   utilizar la versión síncrona de la función para leer directorios, `readdirSync`.

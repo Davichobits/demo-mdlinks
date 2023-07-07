@@ -24,16 +24,13 @@ function HomepageHeader() {
 
         <h2 className='text-left mt-24 font-black'>Resumen del proyecto</h2>
 
-        <p className='paragraph'>En este proyecto crearás una librería de código que servirá como herramienta para analizar links dentro de archivos Markdown. Esta librería, escrita en Node.js, será accesible desde la línea de comandos (CLI) y permitirá a la usuaria ejecutar la librería directamente desde la terminal. </p>
-
-        <p className='paragraph'>En esta oportunidad nos alejamos un poco del navegador para construir un script que se ejecute usando Node.js. Aprenderemos sobre procesos (`process.env`, `process.argv`, ...), cómo interactuar con el sistema archivos, cómo hacer consultas de red, etc.</p>
+        <p className='paragraph'>En este proyecto desarrollarás una librería en Node.js que funcionará como herramienta para analizar links dentro de archivos Markdown. Esta librería estará disponible de dos formas: como un módulo publicado en GitHub, que las usuarias podrán instalar e importar en otros proyectos, y como una interfaz de línea de comandos (CLI) que permitirá utilizar la biblioteca directamente desde el terminal.</p>
 
         <p className='paragraph'> <a href="https://nodejs.org/es/">Node.js</a> es un entorno de ejecución para JavaScript construido con el <a href="https://developers.google.com/v8/">motor de JavaScript V8 de Chrome</a>. Esto nos va a permitir ejecutar JavaScript en el entorno del sistema operativo, ya sea tu máquina o un servidor, lo cual nos abre las puertas para poder interactuar con el sistema en sí, archivos, redes, etc.</p>
 
-        <p className='paragraph'>Diseñar tu propia librería es una experiencia fundamental para cualquier
-        desarrolladora porque que te obliga a pensar en la interfaz (API) de tus
-        <i>módulos</i> y cómo serán usado por otras developers. Debes tener especial
-        consideración en peculiaridades del lenguaje, convenciones y buenas prácticas.</p>
+        <p className='paragraph'>En esta oportunidad nos alejamos un poco del navegador para construir una librería que interactua con el sistema archivos y un script que se ejecute usando Node.js. prenderemos cómo buscar y leer archivos, cómo hacer consultas de red, sobre procesos (<i>process.env</i>, <i>process.argv</i>, ...), etc.</p>
+
+        <p className='paragraph'>Diseñar tu propia librería es una experiencia fundamental para cualquier desarrolladora porque que te obliga a pensar en la interfaz (API) de tus <i>módulos</i> y cómo será usado por otras developers. Debes tener especial consideración en peculiaridades del lenguaje, convenciones y buenas prácticas. Al finalizar, podrás compartir esta biblioteca utilizando NPM (Node Package Manager), que facilita la búsqueda e instalación de bibliotecas de Node a través de su registro y también de GitHub. Una vez que hayas subido la biblioteca a tu repositorio público, será accesible para otras developers.</p>
 
         <div className={styles.buttons}>
           <Link

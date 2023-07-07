@@ -6,12 +6,12 @@ sidebar_position: 5
 
 ## Buscando dentro de subcarpetas
 
-
 Misma funcionalidad que el HITO 3 pero ahora la usuaria será capaz de pasar una
 carpeta como ruta con más carpetas dentro además de posibles archivos.
 
 La función `mdLinks(path, validate)` tendrá que recorrer todas las carpetas
-existentes en la ruta y buscar los links en todos los archivos md que encuentre.
+existentes en la ruta y buscar los links en todos los archivos markdown que
+encuentre.
 
 Para resolver este hito te recomendacón leer acerca del concepto de
 recursividad y ver algunos ejemplos (ojo con concepto de casos base)
@@ -25,7 +25,8 @@ carpetas que también debemos abrir y leer, y estas a su vez pueden contener má
 carpetas. Este tipo de problema se resuelve de manera eficiente utilizando un
 proceso recursivo.
 
-Entre los recursos de este proyecto hay un video que te ayudará.
+Entre los [recursos](../recursos.md) de este proyecto hay una página
+que te ayudará.
 
 :::danger No olvides los tests
 Antes de pasar al siguiente hito, asegúrate de escribir los tests correspondientes al código del hito actual.
