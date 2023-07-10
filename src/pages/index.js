@@ -19,9 +19,8 @@ function HomepageHeader() {
 
         <p className='paragraph'>Dentro de una comunidad de código abierto, nos han propuesto crear una herramienta usando <a href="https://nodejs.org/">Node.js</a>, que lea y analice archivos en formato <i>Markdown</i>, para verificar los links que contengan y reportar algunas estadísticas.</p>
 
-        <img src="https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg" alt="mdlinks image" />
+        <img src="https://github.com/Laboratoria/bootcamp/assets/12631491/fc6bc380-7824-4fab-ab8f-7ab53cd9d0e4" alt="mdlinks image" />
         
-
         <h2 className='text-left mt-24 font-black'>Resumen del proyecto</h2>
 
         <p className='paragraph'>En este proyecto desarrollarás una librería en Node.js que funcionará como herramienta para analizar links dentro de archivos Markdown. Esta librería estará disponible de dos formas: como un módulo publicado en GitHub, que las usuarias podrán instalar e importar en otros proyectos, y como una interfaz de línea de comandos (CLI) que permitirá utilizar la librería directamente desde el terminal.</p>
