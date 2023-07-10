@@ -9,7 +9,7 @@ sidebar_position: 3
 Para este hito vas a trabajar con la misma función `mdLinks` pero esta vez la
 usuaria será capaz de pasar una carpeta como ruta.
 
-El La función `mdLinks(path, validate)` debe recorrer todos los archivos
+La función `mdLinks(path, validate)` debe recorrer todos los archivos
 existentes en la carpeta y por cada archivo `.md` que encuentre deberá
 extraer los links para mostrarlos en pantalla.
 

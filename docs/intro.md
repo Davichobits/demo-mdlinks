@@ -47,13 +47,14 @@ Para comenzar este proyecto tendrás que hacer un fork y clonar este repositorio
 
 * Para este proyecto **no está permitido** utilizar `async/await`.
 
-* Para que practiques otra forma de importar y exportar módulos en Node.js,
-  te recomendamos utilizar CommonJS con `require`, que es el formato de módulos
-  original de Node.js.  Si deseas utilizar los ES Modules (`import/export`),
-  asegúrate de configurar correctamente tu archivo package.json agregando la
-  propiedad "type" con el valor "module". Esto permitirá que Node.js reconozca
-  y utilice el formato de ES Modules. (Solamente ten en cuenta que el soporte
-  de Jest para ES Modules aún es experimental)
+* Para este proyecto, te recomendamos utilizar los módulos CommonJS con
+  `require`,  que es el formato de módulos original de Node.js. Si prefieres
+  utilizar ES Modules `(import/export)`, puedes hacerlo, pero ten en cuenta que
+  deberás configurar adecuadamente tu proyecto para que Node.js pueda utilizar
+  este formato. Puedes encontrar más información al respecto
+  [aquí](https://nodejs.org/api/esm.html#enabling). Algo a tener en
+  consideración también, es el [soporte](https://jestjs.io/docs/ecmascript-modules)
+  de Jest para ES Modules el mismo que aún es experimental.
 
 * Para este proyecto, te recomendamos evitar el uso de la función síncrona
   `readFileSync` para leer archivos. En su lugar, te sugerimos abordar este
