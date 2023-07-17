@@ -7,7 +7,7 @@ sidebar_position: 2
 ## Javascript API con segundo parámetro opcional "validate"
 
 Agrega un argumento más a la función `mdLinks`. El segundo parámetro recibirá
-un booleano **validate**. Este segundo parámetro será opcional.
+un booleano que se llamará **validate**. Este segundo parámetro será opcional.
 
 Ahora la función deberá ofrecer la siguiente interfaz:
 

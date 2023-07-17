@@ -1,6 +1,10 @@
 ---
+slug: /
 sidebar_position: 1
 ---
+
+
+This page will be the home page when users visit https://example.com/.
 
 # Características
 
@@ -52,15 +56,17 @@ Para comenzar este proyecto tendrás que hacer un fork y clonar este repositorio
   utilizar ES Modules `(import/export)`, puedes hacerlo, pero ten en cuenta que
   deberás configurar adecuadamente tu proyecto para que Node.js pueda utilizar
   este formato. Puedes encontrar más información al respecto
-  [aquí](https://nodejs.org/api/esm.html#enabling). Algo a tener en
-  consideración también, es el [soporte](https://jestjs.io/docs/ecmascript-modules)
-  de Jest para ES Modules el mismo que aún es experimental.
+  [aquí](https://nodejs.org/api/packages.html#determining-module-system). Además, tendrás que configurar Jest para ello también, siguiendo los
+  [siguientes pasos](https://jestjs.io/docs/ecmascript-modules).
+  Ten en consideración que Jest considera esto aún como un _feature
+  experimental_.
 
 * Para este proyecto, te recomendamos evitar el uso de la función síncrona
   `readFileSync` para leer archivos. En su lugar, te sugerimos abordar este
   desafío de manera asíncrona utilizando `readFile`. Además, si utilizas el
-  módulo [require("fs/promises")](https://nodejs.org/dist/latest-v18.x/docs/api/fs.html),
-  podrás aprovechar las promesas con `readFile`.
+  módulo `fs/promises`, podrás utilizar la versión promisificada de las
+  funciones como
+  [`readFile`](https://nodejs.org/dist/latest-v18.x/docs/api/fs.html#fspromisesreadfilepath-options).
 
 * Para disminuir la complejidad de tu algoritmo recursivo, te recomendamos
   utilizar la versión síncrona de la función para leer directorios, `readdirSync`.
