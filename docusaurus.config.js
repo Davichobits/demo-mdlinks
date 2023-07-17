@@ -59,21 +59,26 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'mdlinks',
-        logo: {
-          alt: 'mdlinks logo',
-          src: 'img/enlace.png',
-        },
+        title: '',
+        // logo: {
+        //   alt: 'mdlinks logo',
+        //   src: 'img/enlace.png',
+        // },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'El proyecto',
+            label: 'Markdown Links',
           },
           {
-            href: 'https://www.laboratoria.la/',
-            label: 'Laboratoria',
+            href: 'https://claseslaboratoria.slack.com/archives/C03T1E5TJCQ',
+            label: '#Slack',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/Laboratoria/DEV009-md-links',
+            label: 'Forkea el proyecto',
             position: 'right',
           },
         ],
