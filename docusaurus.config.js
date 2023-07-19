@@ -21,7 +21,7 @@ const config = {
   organizationName: 'Laboratoria', // Usually your GitHub org/user name.
   projectName: 'mdlinks', // Usually your repo name.
 
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
