@@ -14,14 +14,14 @@ const config = {
   url: 'https://your-docusaurus-test-site.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/build/',
+  baseUrl: '/demo-mdlinks/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Laboratoria', // Usually your GitHub org/user name.
   projectName: 'mdlinks', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -38,14 +38,19 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: false,
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -59,26 +64,21 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '',
-        // logo: {
-        //   alt: 'mdlinks logo',
-        //   src: 'img/enlace.png',
-        // },
+        title: 'mdlinks',
+        logo: {
+          alt: 'mdlinks logo',
+          src: 'img/enlace.png',
+        },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Markdown Links',
+            label: 'El proyecto',
           },
           {
-            href: 'https://claseslaboratoria.slack.com/archives/C03T1E5TJCQ',
-            label: '#Slack',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/Laboratoria/DEV009-md-links',
-            label: 'Forkea el proyecto',
+            href: 'https://www.laboratoria.la/',
+            label: 'Laboratoria',
             position: 'right',
           },
         ],
