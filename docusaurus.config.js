@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Laboratoria', // Usually your GitHub org/user name.
+  organizationName: 'davichobits', // Usually your GitHub org/user name.
   projectName: 'mdlinks', // Usually your repo name.
 
   onBrokenLinks: 'throw',
