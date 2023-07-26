@@ -6,8 +6,8 @@ sidebar_position: 2
 
 ## Javascript API con segundo parámetro opcional "validate"
 
-Agrega un argumento más a la función `mdLinks`. El segundo parámetro recibirá
-un booleano que se llamará **validate**. Este segundo parámetro será opcional.
+Agrega un parámetro más a la función `mdLinks` que se llamará _validate_ y que
+recibirá un valor booleano. _validate_ será un argumento opcional.
 
 Ahora la función deberá ofrecer la siguiente interfaz:
 
@@ -15,11 +15,11 @@ Ahora la función deberá ofrecer la siguiente interfaz:
   
 Argumentos:
 
-* path: Ruta absoluta o relativa al archivo o directorio. Si la ruta pasada
+* `path`: Ruta absoluta o relativa al archivo o directorio. Si la ruta pasada
   es relativa, debe resolverse como relativa al directorio desde donde se
   invoca node (transformar a absoluta).
 
-* validate: Booleano que determina si se desea validar los links encontrados.
+* `validate`: Booleano que determina si se desea validar los links encontrados.
 
 **Valor que resuelve la promesa con validate = false ó undefined:**
 Un arreglo con objetos que representan links. Cada objeto tiene las
@@ -29,7 +29,7 @@ propiedades:
 * `text`: Texto que aparecía dentro del link (`<a>`).
 * `file`: Ruta del archivo donde se encontró el link.
 
-OJO: _el valor anterior es el mismo que el del hito 1_
+Recuerda que el valor anterior es el mismo que el del hito 1
 
 **Valor que resuelve la promesa con validate = true:**
 Un arreglo con objetos que representan links. Cada objeto tiene las
@@ -57,7 +57,7 @@ mdLinks("./some/example.md")
   .catch(console.error);
 
 
-mdLinks("./some/example.md", true )
+mdLinks("./some/example.md", true)
   .then(links => {
     // => [{ href, text, file, status, ok }, ...]
   })

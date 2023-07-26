@@ -6,20 +6,11 @@ sidebar_position: 4
 
 ## Interfaz de Línea de comando
 
-En este hito, crearás un paquete ejecutable de tu código, el mismo que
-internamente ejecutará la función mdLinks que acabas de crear.
-
-Este paquete deberá estar documentado en un repositorio público con un package.json
-para poderlo instalar a con npm.
-
-La instalación sería de la siguiente manera:
-
-```shell
-npm install `<github-user>/md-links`.
-```
+En este hito, crearás un Interfaz de Linea de Comando (CLI), un script
+ejecutable que internamente ejecutará la función `mdLinks` que acabas de crear.
 
 Este módulo debe incluir tanto un ejecutable que podamos invocar en la
-línea de comando como una interfaz que podamos importar con require para
+línea de comando como una interfaz que podamos importar para
 usarlo programáticamente.
 
 El ejecutable de tu aplicación debe poder correr de la siguiente manera a
@@ -34,14 +25,14 @@ Por ejemplo:
 ![mdlinks-example](https://github.com/Laboratoria/bootcamp/assets/123121338/7dcc83c4-873e-4ef8-b7d0-a15adb102680)
 
 El comportamiento por defecto no debe validar si las URLs responden ok o no,
-solo debe identificar el archivo markdown (a partir de la ruta que recibe como
+solo debe identificar el archivo Markdown (a partir de la ruta que recibe como
 argumento), analizar el archivo Markdown e imprimir los links que vaya
 encontrando, junto con la ruta del archivo donde aparece y el texto que hay
 dentro del link (truncado a 50 caracteres).
 
-#### Options
+## Options
 
-##### `--validate`
+### `--validate`
 
 Si pasamos la opción `--validate`, el módulo debe hacer una petición HTTP para
 averiguar si el link funciona o no. Si el link resulta en una redirección a una
@@ -55,7 +46,7 @@ Vemos que el _output_ en este caso incluye la palabra `ok` o `fail` después de
 la URL, así como el status de la respuesta recibida a la petición HTTP a dicha
 URL.
 
-##### `--stats`
+### `--stats`
 
 Si pasamos la opción `--stats` el output (salida) será un texto con estadísticas
 básicas sobre los links.
@@ -72,4 +63,15 @@ comando al sistema. Sin embargo, antes de vincular el comando, puedes desarrolla
 tu interfaz de línea de comandos (CLI) invocándola con node. Por ejemplo,
 puedes usar el siguiente comando:
 
-`node <RUTA_DE_TU_CLI.js> ruta options`
+```shell
+node <RUTA_DE_TU_CLI.js> ruta options
+```
+
+Este paquete deberá estar documentado en un repositorio público con un `package.json`
+para poderlo instalar con [NPM](https://www.npmjs.com/).
+
+La instalación sería de la siguiente manera:
+
+```shell
+npm install `<github-user>/md-links`.
+```
